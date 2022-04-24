@@ -1,0 +1,368 @@
+@font-face {
+    font-family: "PTsans Caption Bold";
+    src: url(./fonts/PT_Sans-Caption-Web-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PTsans Bold";
+    src: url(./fonts/PT_Sans-Web-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PTsans Regular";
+    src: url(./fonts/PT_Sans-Web-Regular.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: fixed;
+	width: 100%;
+	height: 90px;
+	background-color: white;
+	z-index: 2;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.header {
+    position: relative;
+    height: 84px;
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 408px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    font-family: "PTsans Caption Bold", sans-serif;
+    margin-right: 72px;
+
+    font-weight: 700;
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+
+
+.description {
+    padding: 104px 0;
+}
+
+.description-img {
+    margin-right: 102px;
+}
+
+.description-content {
+    width: 672px;
+}
+
+.content-name {
+    font-family: "PTsans Caption Bold", sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+    margin-bottom: 21px;
+}
+
+.content-logo {
+    font-family: "PTsans Caption Bold", sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    color: #4EC206;
+    margin-bottom: 20px;
+}
+
+.content-text {
+    font-family: "PTsans Regular",sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.content-btn {
+    font-family: "PTsans Caption Bold", sans-serif;
+    cursor: pointer;
+    border: 0;
+    width: 282px;  
+background: #4EC206;
+border-radius: 45px;
+padding: 10px 0;
+font-size: 22px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+
+
+.list {
+    padding: 158px 0 466px 0;
+    background: #333333;
+    position: relative;
+}
+
+.list-information {
+    width: 390px;
+    margin-right: 375px;
+}
+
+.logo-information {
+    font-family: "PTsans Caption Bold", sans-serif;
+    font-size: 32px;
+line-height: 40px;
+color: #FFFFFF;
+margin-bottom: 50px;
+}
+
+.list-elements {
+    padding-left: 22px;
+    margin-bottom: 62px;
+}
+
+.list-element {
+    font-family: "PTsans Regular",sans-serif;
+    font-size: 24px;
+line-height: 40px;
+color: #FCFCFC;
+}
+
+::placeholder {
+    font-family: "PTsans Regular",sans-serif;
+    font-size: 18px;
+line-height: 29px;
+letter-spacing: 0.02em;
+color: #6F6F6F;
+}
+
+input {
+    width: 384px;
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+
+.flowers {
+    top: 754px;
+left: 334px;
+    position: absolute;
+}
+
+.flowers-logo {
+    font-size: 32px;
+line-height: 40px;
+color: #FFFFFF;
+font-family: "PTsans Caption Bold", sans-serif;
+margin-bottom: 72px;
+}
+
+.cards {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.slick-slide {
+    height: 550px;
+}
+
+.slick-prev::before {
+    content: "./images/prev.png";
+}
+
+.slick-next::before {
+    content: "./images/next.png";
+}
+
+.slick-prev::before, .slick-next::before{
+    color: black;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 380px;
+    margin: 0 16px;
+    background: #FFFFFF;
+box-shadow: 10px 0px 50px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+height: 550px;
+padding: 41px 59px 55px 52px;
+}
+
+.card-img {
+    margin-bottom: 21px;
+}
+
+.card-name {
+    font-family: "PTsans Caption Bold", sans-serif;
+    font-size: 20px;
+line-height: 28px;
+color: #4EC206;
+margin-bottom: 20px;
+}
+
+.card-text {
+    font-family: "PTsans Regular",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+.function {
+    padding: 468px 0 157px;
+}
+
+.function-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.function-logo {
+    font-family: "PTsans Caption Bold", sans-serif;
+    font-size: 32px;
+line-height: 40px;
+color: #333333;
+margin-bottom: 40px;
+}
+
+.function-elements {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.function-element {
+    height: 110px;
+    background: #FFFFFF;
+box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 24px rgba(0, 0, 0, 0.16);
+border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 35px 40px 35px 36px;
+    width: 376px;
+    box-sizing: border-box;
+    margin: 10px 12px;
+}
+
+.image {
+    margin-right: 34px;
+}
+.image img{
+    width: 40px;
+}
+
+.text {
+    font-family: "PTsans Caption Bold", sans-serif;
+    font-size: 20px;
+line-height: 28px;
+color: #333333
+}
+
+
+
+
+.form {
+    width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto 121px;
+    background: #FFFFFF;
+box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 24px rgba(0, 0, 0, 0.16);
+border-radius: 8px;
+padding: 61px 180px 60px 60px;
+}
+
+.form-logo {
+    font-family: "PTsans Caption Bold", sans-serif;
+    font-size: 32px;
+line-height: 38px;
+color: #4EC206;
+margin-bottom: 57px;
+}
+
+.form input {
+    border: 1px solid #B6B6B6;
+box-sizing: border-box;
+border-radius: 5px;
+padding: 17px 28px 17px 28px;
+}
+
+.field-text {
+    margin-bottom: 56px;
+}
+
+
+.footer {
+    padding: 36px 0;
+    background: #F4F4F4;
+}
+
+.footer .container{
+    justify-content: space-between;
+}
+.footer__app{
+    display: flex;
+    align-items: center;
+}
+
+.footer .logo-img {
+    margin-right: 322px;
+}
+
+.vk {
+    margin-right: 55px;
+    cursor: pointer;
+}
+
+.telegram {
+    margin-right: 58px;
+    cursor: pointer;
+}
+
+.button {
+    font-family: "PTsans Caption Bold", sans-serif;
+    cursor: pointer;
+    background: #999999;
+border-radius: 45px;
+padding: 11px;
+width: 200px;
+box-sizing: border-box;
+text-align: center;
+border: 0;
+font-size: 22px;
+line-height: 28px;
+color: #FFFFFF;
+}
